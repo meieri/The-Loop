@@ -7,7 +7,7 @@ import spotipy.util as util
 username = '12167117255'
 scope = 'user-top-read'
 client_id = '832a7bc6d77345daade6d437ab7ecc35'
-client_secret = 'd853a5f3ca714d28bcc0ab8ccf818cbf'
+client_secret = ''
 redirect_uri = 'http://localhost:8888/callback/'
 
 token = util.prompt_for_user_token(username,scope,client_id=client_id,client_secret=client_secret,redirect_uri=redirect_uri)
